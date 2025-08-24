@@ -9,6 +9,7 @@ public class Inventario {
 
     public void adicionarItem (String item){
         itens.add(item);
+
     }
     public void mostrarItems() {
         StringBuilder itensListados = new StringBuilder("Lista de Itens:\n");
